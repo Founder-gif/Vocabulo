@@ -11,6 +11,10 @@ def cls():
     '''Limpar terminal'''
     sys('cls')
 
+def pause():
+    '''Parar terminal'''
+    sys('pause')
+
 def linha():
     return print('\033[1;32m=\033[m'*40)
     
